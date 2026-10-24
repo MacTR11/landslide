@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<title>Support · Landslide</title>
+<meta name="description" content="Help with Landslide, the UK politics strategy game for iPhone: how to play, common questions and how to get in touch.">
+<style>
+:root {
+  --bg: #F3F5FA; --surface: #FFFFFF; --text: #101828; --muted: #4A5468; --line: rgba(16, 24, 40, 0.12);
+  --accent: #C8102E; --link: #B00E28; --shadow: 0 1px 2px rgba(16,24,40,.06), 0 12px 32px rgba(16,24,40,.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #070C18; --surface: #111A2E; --text: #EEF1F7; --muted: #A9B3C7; --line: rgba(255,255,255,.12);
+    --accent: #FF4D63; --link: #FF8A99; --shadow: 0 12px 32px rgba(0,0,0,.4); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; overflow-wrap: break-word; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
+.top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 12px; padding: 20px 0 16px; }
+.brand { font-weight: 800; font-size: 20px; letter-spacing: .02em; color: var(--text); text-decoration: none; font-stretch: expanded; }
+.top nav { display: flex; gap: 2px; }
+.top nav a { color: var(--text); text-decoration: none; font-weight: 600; font-size: 15px; padding: 8px 12px; border-radius: 999px; }
+.top nav a[aria-current="page"] { background: var(--surface); box-shadow: var(--shadow); }
+main { background: var(--surface); border-radius: 26px; box-shadow: var(--shadow); padding: 28px 20px 32px; margin-bottom: 24px; }
+@media (min-width: 640px) { main { padding: 44px 52px 48px; } }
+h1 { font-size: clamp(30px, 7vw, 42px); line-height: 1.12; letter-spacing: -.02em; margin: 0 0 8px; }
+h2 { font-size: 22px; line-height: 1.3; margin: 38px 0 8px; }
+p, ul { margin: 0 0 14px; } ul { padding-left: 22px; } li { margin: 5px 0; } li::marker { color: var(--accent); }
+a { color: var(--link); text-underline-offset: 3px; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.muted { color: var(--muted); }
+.button { display: inline-block; margin-top: 10px; padding: 12px 22px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 700; text-decoration: none; }
+footer { color: var(--muted); font-size: 14px; padding: 4px 0 32px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><span class="brand">Landslide</span><nav><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav></header>
+<main>
+<h1>Support</h1>
+<p class="muted">Help with Landslide for iPhone.</p>
+<h2>Get in touch</h2>
+<p>Email <a href="mailto:macauleytreleaven@gmail.com?subject=Landslide">macauleytreleaven@gmail.com</a>. Say which iPhone and version of iOS you have, and what happened. I read everything and reply as soon as I can.</p>
+<h2>How to play</h2>
+<ul>
+<li><strong>Campaign</strong> starts you in Downing Street as the party in government, or calls a snap election as any party you choose.</li>
+<li>Each turn is a month. Plan it in the sheet's tabs: policies and new bills in Parliament, your Cabinet in People, regional projects in Budget, and taxes and spending at the Autumn Budget (November) and the Spring Statement (March). The Country tab shows where everything is heading and why, and the Treasury, from the figures at the top of Budget, shows the money five years ahead.</li>
+<li>Press the month button, top right of the sheet, and the month's business follows in order: your decisions, Prime Minister's Questions, the Budget when it's due, each bill as a division in the Commons, and then the report on what changed and why.</li>
+<li>Every change costs political capital, shown as dots beside it. A tax cut or more money for a department costs one; bigger tax rises, cuts and most policies cost more. Good months win capital back (Prime Minister's Questions, by-elections, bills passed, a Budget the OBR backs) and defeats, rebellions and U-turns lose it. Tap the number at the top right to see what you are spending and why it changed.</li>
+<li>Before a vote the whips tell you how it looks; in the division each MP makes up their own mind. MPs in marginal seats rebel when a bill hurts them, and if the backbenchers turn on you they force a confidence vote.</li>
+<li>Call the election from the seal button at the top, or wait until it's due.</li>
+<li>Lose, and you lead the opposition: ask the questions at PMQs, choose which government bills to oppose, move your party's positions and keep your MPs' morale up until the next election. If morale stays too low, your MPs choose a new leader and you carry on as them.</li>
+<li><strong>Simulation</strong> starts from the latest polling average. Move the sliders to see the House those shares would elect.</li>
+</ul>
+<h2>Questions</h2>
+<p><strong>Where do the polls and seats come from?</strong> The game checks a public data file when it opens. It's rebuilt twice a day from the polling average on Wikipedia and the UK Parliament Members API. Without a connection, the game uses the last copy it saw.</p>
+<p><strong>Are real politicians in it?</strong> No. Parties are real and their positions are simplified. Every person in the game is invented, and you name your own Prime Minister.</p>
+<p><strong>Is my game saved?</strong> Yes, on your iPhone, after every turn. Continue picks it up from the main menu. Delete it in Settings.</p>
+<p><strong>It's too easy, or too hard.</strong> Change the difficulty in Settings. Easy shows the exact seats each decision is worth; Hard makes the markets and your backbenchers less forgiving.</p>
+<p><strong>Is it on iPad?</strong> Landslide is built for iPhone. It runs on iPad in iPhone mode.</p>
+</main>
+<footer>© 2026 Macauley Treleaven. Landslide is not affiliated with or endorsed by any political party, pollster or Parliament.</footer>
+</div>
+</body>
+</html>
